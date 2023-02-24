@@ -1,4 +1,5 @@
 import logging
+logging.basicConfig(level=logging.INFO)
 
 def calculator(x, y, choice):
     if choice == 1:
@@ -23,4 +24,5 @@ if __name__ == "__main__":
     x = int(input("Podaj pierwszą liczbę:"))
     y = int(input("Podaj drugą liczbę:"))
     calculator(x, y, choice)
+
 
